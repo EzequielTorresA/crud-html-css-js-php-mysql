@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba CRUD HTML CSS JS PHP MySQL</title>
+    <link rel="stylesheet" href="static/css/global.css" />
+    <link rel="stylesheet" href="static/css/crud.css" />
+  </head>
+  <body>
+    <header><nav></nav></header>
+    <main>
+      <section class="formulario_crud">
+        <div class="contenedor_formulario">
+          <h1>Formulario CRUD</h1>
+          <form action="" id="crud_form">
+            <input
+              type="text"
+              id="usuario_nombre"
+              placeholder="Nombre de usuario"
+            />
+            <input
+              type="password"
+              id="usuario_contrasena"
+              placeholder="Contraseña"
+            />
+            <input type="email" id="usuario_email" placeholder="Correo" />
+            <button type="submit" id="btn_agregar">Agregar usuario</button>
+          </form>
+        </div>
+      </section>
+      <section class="tabla_registros">
+        <div class="contenedor_tabla">
+          <h1>Tabla de registros</h1>
+          <div class="reg_tabla">
+            <table class="tabla_de_registros" id="registros_bd"></table>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+<!--
+Sí, puedes agregar dos botones a cada línea de la tabla, uno para editar el
+registro y otro para eliminar el registro de la tabla. Aquí hay un ejemplo de
+cómo podrías hacerlo: ```javascript function getData() { fetch('loadData.php')
+.then(response => response.json()) .then(data => { // Crear una tabla let table
+= document.createElement('table'); // Agregar filas y celdas data.forEach(row =>
+{ let tr = document.createElement('tr'); Object.values(row).forEach(value => {
+let td = document.createElement('td'); td.textContent = value;
+tr.appendChild(td); }); // Agregar botones de editar y eliminar let editButton =
+document.createElement('button'); editButton.textContent = 'Editar';
+editButton.addEventListener('click', () => { // Aquí puedes agregar el código
+para editar el registro }); tr.appendChild(editButton); let deleteButton =
+document.createElement('button'); deleteButton.textContent = 'Eliminar';
+deleteButton.addEventListener('click', () => { // Aquí puedes agregar el código
+para eliminar el registro }); tr.appendChild(deleteButton);
+table.appendChild(tr); }); // Agregar la tabla al DOM
+document.body.appendChild(table); }); } ``` En este ejemplo, la función
+`getData` usa `fetch` para enviar una solicitud al archivo `loadData.php` en el
+servidor. Una vez que se reciben los datos, se crea una tabla y se agregan filas
+y celdas para mostrar los datos. También se agregan dos botones a cada fila, uno
+para editar el registro y otro para eliminarlo. Puedes agregar el código
+necesario para editar o eliminar el registro en las funciones de los eventos
+`click` de los botones. Espero que esta información te sea útil. ¿Hay algo más
+en lo que pueda ayudarte? -->
