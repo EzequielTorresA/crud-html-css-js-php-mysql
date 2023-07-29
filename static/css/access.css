@@ -1,0 +1,35 @@
+/* Global -----------------------*/
+.container_100 {
+  width: 100%;
+  height: 100vh;
+}
+.container_50 {
+  width: 50%;
+  height: auto;
+}
+/* Contenedor principal ---------*/
+.contenedor {
+  background-color: yellowgreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.login {
+  background-color: violet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+.signin {
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+.titulo h1 {
+  font-family: ariena-violeta;
+  font-size: 3rem;
+  color: white;
+}
