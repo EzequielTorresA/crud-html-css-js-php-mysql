@@ -9,53 +9,46 @@
       type="image/x-icon"
     />
     <title>Acceder</title>
+    <link rel="stylesheet" href="static/css/global.css" />
     <link rel="stylesheet" href="static/css/access.css" />
   </head>
   <body>
     <main>
-      <section class="contenedor container_100">
-        <section class="signin container_50">
-          <div class="titulo">
-            <h1>¡Registrate hoy mismo!</h1>
-          </div>
-          <div class="mensaje">Ingresa tus credenciales</div>
-          <div class="contenedor_formulario">
-            <form action="">
-              <label>Correo electrónico</label>
-              <input
-                type="email"
-                name="registro_usuario_email"
-                placeholder="ejemplo@dominio.com"
-              />
-              <label>Contraseña</label>
-              <input type="password" name="registro_usuario_contrasena" />
-              <button onclick="registrar_credenciales_usuario()">
-                Registrarse ahora
-              </button>
-            </form>
-          </div>
-        </section>
-        <section class="login container_50">
-          <div class="titulo">
-            <h1>Inicia Sesión aquí</h1>
-          </div>
-          <div class="mensaje">Usa tu correo y contraseña</div>
-          <div class="contenedor_formulario">
-            <form action="">
-              <label>Correo electrónico</label>
-              <input
-                type="email"
-                name="inicios-sesion_usuario_email"
-                placeholder="ejemplo@dominio.com"
-              />
-              <label>Contraseña</label>
-              <input type="password" name="inicio-sesion_usuario_contrasena" />
-              <button onclick="iniciar-sesion_credenciales_usuario()">
-                Acceder
-              </button>
-            </form>
-          </div>
-        </section>
+      <section class="main_container">
+        <div class="forms_containers">
+          <section class="form">
+            <h1>Registrate</h1>
+            <div class="formulario">
+              <form action="">
+                <input
+                  type="email"
+                  name="nuevo_usuario_email"
+                  placeholder="correo@dominio..."
+                />
+                <input type="password" name="nuevo_usuario_contrasena" />
+                <button type="submit" name="enviar_registro_nuevo_usuario">
+                  Registrarse
+                </button>
+              </form>
+            </div>
+          </section>
+          <section class="form">
+            <h1>Inicia sesión</h1>
+            <div class="formulario">
+              <form action="">
+                <input
+                  type="email"
+                  name="usuario_email"
+                  placeholder="correo@dominio..."
+                />
+                <input type="password" name="usuario_contrasena" />
+                <button type="submit" name="enviar_registro_nuevo_usuario">
+                  Iniciar sesión
+                </button>
+              </form>
+            </div>
+          </section>
+        </div>
       </section>
     </main>
   </body>
