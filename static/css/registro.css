@@ -40,7 +40,12 @@ form {
   justify-content: space-evenly;
   padding: 3%;
 }
+input {
+  width: 100%;
+  font-size: 1.3rem;
+}
 input:last-child {
+  font-size: 1.3rem;
   width: fit-content;
   font-family: Montserrat-medium;
   background-color: #010135;
@@ -96,13 +101,6 @@ span {
   form label {
     font-size: 1.2rem;
   }
-  input {
-    width: 100%;
-    font-size: 1.3rem;
-  }
-  input:last-child {
-    font-size: 1.3rem;
-  }
   .extra_options {
     width: 60%;
     height: 20%;
@@ -133,13 +131,6 @@ span {
   }
   form label {
     font-size: 1.2rem;
-  }
-  input {
-    width: 100%;
-    font-size: 1.3rem;
-  }
-  input:last-child {
-    font-size: 1.3rem;
   }
   .extra_options {
     width: 60%;

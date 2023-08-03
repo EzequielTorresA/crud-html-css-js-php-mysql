@@ -8,3 +8,5 @@
 > PRIMERO ES GIT COMMIT -M Y DESPUÉS GIT PUSH ORIGIN MAIN LPMMMM
 > no se supone que este programa te llevara tanto tiempo, si te lo ubieran puesto en la universidad lo hubieras temrinado en una semana, o menos
 > ¿no le pusiste muchos detalles a los formularios? si, pero se ve genial.
+> Pude haber hecho un formato css independiente para cada login y signin, pero me obliga a cambiar ambos estilos siempre.
+> Al fin salgo de esta parte oooooooof

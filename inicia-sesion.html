@@ -19,21 +19,21 @@
           <div class="login_form">
             <h1>¡Bienvenido de nuevo!</h1>
             <form action="">
-              <label>Correo</label>
+              <label>Correo electrónico:</label>
               <input
                 type="email"
                 placeholder="correo@dominio..."
                 name="login_input_correo"
-                id=""
+                id="login_correo"
               />
-              <label>Contraseña</label>
-              <input type="password" name="login_input_password" id="" />
-              <button type="submit">Ingresar</button>
+              <label>Contraseña:</label>
+              <input type="password" id="login_password" minlength="8" />
+              <input type="submit" value="Acceder" id="submit" />
             </form>
           </div>
           <div class="extra_options">
-            <h3>¿No tienes cuenta todavía?</h3>
-            <a href="registro.html" draggable="false"><p>Registrate aquí</p></a>
+            <label>¿Aún no tienes cuenta?</label>
+            <a href="registro.html">Registrate aquí</a>
           </div>
         </section>
       </div>
