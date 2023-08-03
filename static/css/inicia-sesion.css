@@ -10,9 +10,7 @@
   justify-content: center;
 }
 .page_stuff {
-  max-width: 800px;
-  min-width: 350px;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -20,7 +18,6 @@
 }
 .login_form {
   width: 100%;
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -47,6 +44,7 @@ input {
   width: 100%;
   font-family: Montserrat-regular;
   color: #01528a;
+  font-size: 2.5rem;
 }
 .extra_options {
   background-color: #01528a;
@@ -82,19 +80,42 @@ button {
   cursor: pointer;
   border-radius: 15px;
   padding: 2%;
+  font-size: 1.3rem;
 }
 @media (min-width: 1300px) {
-}
-@media (max-width: 1299px) and (min-width: 900) {
+  .page_stuff {
+    max-width: 800px;
+    min-width: 350px;
+  }
+  .login_form {
+    height: 60vh;
+  }
   .login_form h1 {
     font-size: 4rem;
-    color: red;
   }
   label {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .input {
+    font-size: 3rem;
+    font-size: 2rem;
+  }
+  .extra_options h3 {
     font-size: 1.5rem;
+  }
+  .extra_options a {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1299px) and (min-width: 900px) {
+  .login_form {
+    height: 60vh;
+  }
+  .login_form h1 {
+    font-size: 4rem;
+  }
+  label {
+    font-size: 2.5rem;
   }
   .extra_options h3 {
     font-size: 1.5rem;
@@ -104,6 +125,9 @@ button {
   }
 }
 @media (max-width: 899px) and (min-width: 600px) {
+  .login_form {
+    height: 50vh;
+  }
   .login_form h1 {
     font-size: 3rem;
   }
@@ -111,7 +135,7 @@ button {
     font-size: 2rem;
   }
   .input {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
   .extra_options h3 {
     font-size: 1.5rem;
@@ -121,6 +145,9 @@ button {
   }
 }
 @media (max-width: 599px) {
+  .login_form {
+    height: 45vh;
+  }
   .login_form h1 {
     font-size: 2.5rem;
   }
