@@ -1,9 +1,11 @@
 # crud-html-css-js-php-mysql
+
 Solo una prueba de habilidades y conocimiento con estas herramientas.
 
-La cosa va de utilizar html y css para las caras, JS para la funcionalidad y PHP para el backend (diconexión a la base de datos, creación de registros, modificación de registros y eliminación de registros)
+La cosa va de utilizar html y css para las caras, JS para la funcionalidad y PHP para el backend (conexión a la base de datos, creación de registros, modificación de registros y eliminación de registros)
 
 # Características
+
 > Existirá un formulario de registro e inicio de sesión
 > Una vez dentro el usuario podrá acceder al CRUD
 > Los nuevos registros del CRUD serán credenciales de usuario que pueden usar el formulario de inicio de sesión

@@ -1,126 +1,100 @@
+/* Diseños generales*/
+.main_container {
+  width: 100%;
+  height: 100vh;
+  background-color: #c7bfaa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.forms_containers {
+  height: auto;
+  display: flex;
+}
+.form {
+  height: auto;
+  background-color: #01528a;
+  border-radius: 15px;
+  display: flex;
+}
+form {
+  height: auto;
+  display: flex;
+}
+h1 {
+  font-family: Montserrat-bold;
+  color: #eeebc2;
+}
+label {
+  font-family: Montserrat-medium;
+  color: #eeebc2;
+}
+input {
+  height: auto;
+  font-family: Montserrat-regular;
+}
+button {
+  font-family: Montserrat-bold;
+  color: #eeebc2;
+  background-color: rgb(115, 49, 13);
+  border-radius: 15px;
+}
 @media (min-width: 1300px) {
-  .main_container {
-    width: 100%;
-    height: auto;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    padding: 3%;
-  }
   .forms_containers {
-    width: 80%;
-    height: auto;
-    background-color: bisque;
-    display: flex;
+    width: 1300px;
     justify-content: space-evenly;
-    flex-direction: row;
-    padding: 3%;
+    height: 80vh;
   }
   .form {
     width: 40%;
-    height: auto;
-    background-color: yellow;
-    display: flex;
     flex-direction: column;
     padding: 3%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
   }
-  .formulario {
-    display: flex;
-    flex-direction: row;
+  form {
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  label {
+    font-size: 2rem;
+  }
+  input {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+  }
+  button {
+    font-size: 3rem;
+    padding: 2rem;
   }
 }
 @media (max-width: 1299px) and (min-width: 900px) {
-  .main_container {
-    width: 100%;
-    height: auto;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    padding: 3%;
-  }
   .forms_containers {
-    width: 80%;
-    height: auto;
-    background-color: bisque;
-    display: flex;
+    width: calc(100% - 2rem);
     justify-content: space-evenly;
-    flex-direction: row;
-    padding: 3%;
+    height: 60vh;
   }
   .form {
     width: 40%;
-    height: auto;
-    background-color: yellow;
-    display: flex;
     flex-direction: column;
     padding: 3%;
-  }
-  .formulario {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media (max-width: 899px) and (min-width: 600px) {
-  .main_container {
-    width: 100%;
-    height: auto;
-    background-color: aqua;
-    display: flex;
     justify-content: center;
-    padding: 3%;
+    align-items: center;
+    justify-content: space-evenly;
   }
-  .forms_containers {
-    width: 80%;
-    height: auto;
-    background-color: bisque;
-    display: flex;
+  form {
     flex-direction: column;
-    padding: 3%;
     align-items: center;
   }
-  .form {
-    width: 80%;
-    height: auto;
-    background-color: yellow;
-    display: flex;
-    flex-direction: column;
-    padding: 3%;
-    margin-bottom: 3%;
-  }
-  .formulario {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media (max-width: 599px) {
-  .main_container {
-    width: 100%;
-    height: auto;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    padding: 3%;
-  }
-  .forms_containers {
-    width: 80%;
-    height: auto;
-    background-color: bisque;
-    display: flex;
-    flex-direction: column;
-    padding: 3%;
-    align-items: center;
-  }
-  .form {
-    width: 80%;
-    height: auto;
-    background-color: yellow;
-    display: flex;
-    flex-direction: column;
-    padding: 3%;
-    margin-bottom: 3%;
-  }
-  .formulario {
-    display: flex;
-    flex-direction: row;
+  h1 {
+    font-size: 2.5rem;
   }
 }

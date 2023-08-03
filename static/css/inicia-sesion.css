@@ -1,0 +1,139 @@
+.main_container {
+  width: 100%;
+  min-width: 350px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #c7bfaa;
+  padding: 3%;
+  align-items: center;
+  justify-content: center;
+}
+.page_stuff {
+  max-width: 800px;
+  min-width: 350px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login_form {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #01528a;
+  border-radius: 30px;
+  padding: 3%;
+}
+.login_form h1 {
+  font-family: Montserrat-bold;
+  color: #eeebc2;
+  text-align: center;
+}
+label {
+  font-family: Montserrat-medium;
+  color: #eeebc2;
+}
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+input {
+  width: 100%;
+  font-family: Montserrat-regular;
+  color: #01528a;
+}
+.extra_options {
+  background-color: #01528a;
+  border-radius: 30px;
+  padding: 3%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.extra_options h3 {
+  font-family: Montserrat-medium;
+  color: #eeebc2;
+  text-align: center;
+}
+.extra_options a {
+  font-family: Montserrat-bold;
+  color: #eeebc2;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: dotted;
+}
+button {
+  width: 50%;
+  font-family: Montserrat-medium;
+  background-color: #010135;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 2%;
+}
+@media (min-width: 1300px) {
+}
+@media (max-width: 1299px) and (min-width: 900) {
+  .login_form h1 {
+    font-size: 4rem;
+    color: red;
+  }
+  label {
+    font-size: 2rem;
+  }
+  .input {
+    font-size: 1.5rem;
+  }
+  .extra_options h3 {
+    font-size: 1.5rem;
+  }
+  .extra_options a {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 899px) and (min-width: 600px) {
+  .login_form h1 {
+    font-size: 3rem;
+  }
+  label {
+    font-size: 2rem;
+  }
+  .input {
+    font-size: 1.5rem;
+  }
+  .extra_options h3 {
+    font-size: 1.5rem;
+  }
+  .extra_options a {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 599px) {
+  .login_form h1 {
+    font-size: 2.5rem;
+  }
+  label {
+    font-size: 1.4rem;
+  }
+  .input {
+    font-size: 3rem;
+  }
+  .extra_options h3 {
+    font-size: 1.5rem;
+  }
+  .extra_options a {
+    font-size: 1.5rem;
+  }
+}

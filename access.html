@@ -20,12 +20,19 @@
             <h1>Registrate</h1>
             <div class="formulario">
               <form action="">
+                <label>Correo electrónico</label>
                 <input
                   type="email"
                   name="nuevo_usuario_email"
                   placeholder="correo@dominio..."
+                  class="input_email"
                 />
-                <input type="password" name="nuevo_usuario_contrasena" />
+                <label>Contraseña</label>
+                <input
+                  type="password"
+                  minlength="8"
+                  name="nuevo_usuario_contrasena"
+                />
                 <button type="submit" name="enviar_registro_nuevo_usuario">
                   Registrarse
                 </button>
@@ -36,11 +43,13 @@
             <h1>Inicia sesión</h1>
             <div class="formulario">
               <form action="">
+                <label>Correo electrónico</label>
                 <input
                   type="email"
                   name="usuario_email"
                   placeholder="correo@dominio..."
                 />
+                <label>Contraseña</label>
                 <input type="password" name="usuario_contrasena" />
                 <button type="submit" name="enviar_registro_nuevo_usuario">
                   Iniciar sesión
