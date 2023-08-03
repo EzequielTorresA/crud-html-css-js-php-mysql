@@ -1,0 +1,10 @@
+> mi cerebro cambia el diseño cada 5 segundos, prefiero cuando tengo que seguir una maqueta previa y detallada
+> estos mismos cambios han retrasado el desarrollo, he deshechado demasiado código
+> analizar el comportamiento de los elementos responsivos en 4 tamaños de forma vanilla es un tipo de tortura
+> anuma en los mediaquerys de css solo van las medidas de los elementos (tamaños de letra, tamaños de elemento, comportamiento...), no sus caracteristicas visuales (color, borde, texto)
+> las páginas que segun se parecían, al tener un estilo de programación diferente e ideas que irregulares (que se supone serían muy similares) parecen más primos lejanos que gemelos
+> hasta los elementos de los forms son diferentes lpm tengo que normalizar los elementos y generar un estandar personal
+> Nota para el yo del futuro: refresca el uso de ramas en git, que no se te pase
+> PRIMERO ES GIT COMMIT -M Y DESPUÉS GIT PUSH ORIGIN MAIN LPMMMM
+> no se supone que este programa te llevara tanto tiempo, si te lo ubieran puesto en la universidad lo hubieras temrinado en una semana, o menos
+> ¿no le pusiste muchos detalles a los formularios? si, pero se ve genial.
