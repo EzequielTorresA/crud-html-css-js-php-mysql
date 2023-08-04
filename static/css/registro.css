@@ -58,6 +58,12 @@ input:last-child {
   border-radius: 15px;
   padding: 2%;
 }
+input[type="submit"]:not([disabled]) {
+}
+input[type="submit"][disabled] {
+  background-color: tomato;
+  text-decoration: line-through;
+}
 span {
   background-color: #eeebc2;
   width: fit-content;
